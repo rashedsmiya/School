@@ -1,4 +1,5 @@
 <?php 
 
+    require("../private/core/autoload.php");
 
-    include_once "../private/core/app.php";
+    $app = new App();
