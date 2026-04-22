@@ -757,7 +757,7 @@ See [LICENSE](LICENSE) for the full text.
 
 **Author:** Rashed Miya
 **Email:** rashedmiyaofficial@gmail.com
-**GitHub:** [@your-username](https://github.com/rashedsmiya)
+**GitHub:** [@rashedsmiya](https://github.com/rashedsmiya)
 
 ---
 
