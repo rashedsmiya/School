@@ -10,8 +10,14 @@
         public function __construct()
         {
             // code ...
-            echo "<pre>";
-            print_r($this->getURL());
+            $URL = $this->getURL();
+            if(file_exists("../private/controllers/" . $URL[0] . ".php"))
+            {
+                $this->controller = $URL[0];
+            }
+
+            require "../private/controllers/" . $this->controller . ".php";
+            $this->controller = new $this->controller();
         }
         private function getURL()
         {
