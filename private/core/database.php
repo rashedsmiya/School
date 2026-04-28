@@ -1,13 +1,17 @@
-<?php 
+<?php
 
-    class Fruit {
-        protected $name;
+class Fruit {
+    protected $name;
 
-        public function get_details(){
-            echo "Name: " . $this->name . "\n";
-        }
+    public function setName($name) {
+        $this->name = $name;
     }
 
-    $apple = new Fruit();
-    $apple->name = "Apple";
-    $apple->get_details();
+    public function get_details(){
+        // echo "Name: " . $this->name . "\n";
+    }
+}
+
+$apple = new Fruit();
+// $apple->setName("Apple");
+$apple->get_details();
